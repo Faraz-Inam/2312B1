@@ -4,3 +4,6 @@ h1{
 p{
     background-color: gray;
 }
+button{
+    border: 2px solid black;
+}
