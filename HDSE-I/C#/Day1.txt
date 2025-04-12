@@ -1,0 +1,58 @@
+//Day - 1
+
+//Basic
+//Console.WriteLine("Enter Your Name");  // print something
+//string name = Console.ReadLine();  // getting input
+
+//Console.WriteLine("Your Name is " + name);  //concatination
+//Console.WriteLine("Your Name is {0}", name);  //placeholder
+
+//Concating of First and Last anme
+//Console.WriteLine("Enter Your First Name"); 
+//string fname = Console.ReadLine();
+//Console.WriteLine("Enter Your Last Name");
+//string lname = Console.ReadLine();
+
+//string fullname = fname + " " + lname;
+
+//Console.WriteLine("Your Name is " + fname + lname);  //concatination
+//Console.WriteLine("Your Name is {0}{1}", fname, lname);  //placeholder
+//Console.WriteLine("Your Name is {0}", fullname);
+
+//Sum of two numbers
+//Console.WriteLine("Enter First Number");
+//int num1 = int.Parse(Console.ReadLine()); 
+//Console.WriteLine("Enter Second Number");
+//int num2 = int.Parse(Console.ReadLine());
+
+//int sum = num1 + num2;
+
+//Console.WriteLine("Your Sum is " + sum);  //concatination
+//Console.WriteLine("Your Sum is {0}", sum);  //placeholder
+
+//Date
+//Console.WriteLine(DateTime.Now);
+
+//DateTime dt = DateTime.Now;
+//Console.WriteLine(dt);
+
+//Datetime Format specifier 
+//Console.WriteLine(dt.ToString("d M, yyyy"));
+//Console.WriteLine(dt.ToString("dd M, yyyy"));
+//Console.WriteLine(dt.ToString("ddd M, yyyy"));
+//Console.WriteLine(dt.ToString("dddd d M, yyyy"));
+
+//Console.WriteLine(dt.ToString("d M, yyyy"));
+//Console.WriteLine(dt.ToString("d MM, yyyy"));
+//Console.WriteLine(dt.ToString("d MMM, yyyy"));
+//Console.WriteLine(dt.ToString("d MMMM, yyyy"));
+
+//Console.WriteLine(dt.ToString("d M, yy"));
+//Console.WriteLine(dt.ToString("d M, yyyy"));
+
+//Console.WriteLine(dt.ToString("d M, yyyy HH"));
+//Console.WriteLine(dt.ToString("d M, yyyy hh"));
+//Console.WriteLine(dt.ToString("d M, yyyy mm"));
+
+//Console.WriteLine(dt.ToString("d M, yyyy  ss"));
+//Console.WriteLine(dt.ToString("d M, yyyy fff"));

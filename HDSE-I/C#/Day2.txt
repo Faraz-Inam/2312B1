@@ -1,0 +1,166 @@
+  //Day - 2
+
+  //Operators
+
+  //1: unary  opr
+  //a) inc/dec  ++, --
+
+  //int num1 = 10;
+  //int num2 = 10;
+
+  //Console.WriteLine(num1);  //5
+  //Console.WriteLine(num1++);  //5
+  //Console.WriteLine(num1);  //6
+
+  //Console.WriteLine(++num1);  //7
+
+  //3: ternary opr
+  //a) conditional opr
+
+  //string output = (num1 == num2) ? "Yes" : "No";
+  //Console.WriteLine(output);
+
+  //Console.WriteLine((num1 == num2) ? "Yes" : "No");
+
+  //2: binary opr
+  //a) arithmetic
+  //b) assignment
+  //c) comparison
+  //d) logical
+  //e) string
+
+  //a) arithmetic
+  //Console.WriteLine(num1 + num2);
+  //Console.WriteLine(num1 - num2);
+  //Console.WriteLine(num1 * num2);
+  //Console.WriteLine(num1 / num2);
+  //Console.WriteLine(num1 % num2);
+
+  ////b) assignment
+  //Console.WriteLine(num1 += num2);  //15  num1 = num1 + num2
+  //Console.WriteLine(num1 -= num2);  //5
+  //Console.WriteLine(num1 *= num2);  //50
+  //Console.WriteLine(num1 /= num2);  //5
+  //Console.WriteLine(num1 %= num2);  //5
+
+  ////c) comparison
+  //Console.WriteLine(num1 == num2);  
+  //Console.WriteLine(num1 >= num2);  
+  //Console.WriteLine(num1 <= num2);  
+  //Console.WriteLine(num1 > num2);  
+  //Console.WriteLine(num1 < num2);
+  //Console.WriteLine(num1 != num2);
+
+  //d) logical 
+  //Console.WriteLine(num1 == num2 || num1 < num2);
+  //Console.WriteLine(num1 >= num2 && num1 <= num2);
+  //Console.WriteLine(num1 != num2);
+
+  //CONDITIONAL STATEMENT
+  //if
+  //if else
+  //if else if (ladder)
+  //nested if
+  //switch
+
+  //int age = 10;
+  //bool cnic = true;
+  //if
+  //if (age == 20)
+  //{
+  //    Console.WriteLine("You are eligible!");
+  //}
+
+  //if else
+  //if (age == 20)
+  //{
+  //    Console.WriteLine("You are eligible!");
+  //}
+  //else{
+  //    Console.WriteLine("you are Not eligible");
+  //}
+
+  //if (age >= 18 && cnic == true)
+  //{
+  //    Console.WriteLine("You are eligible!");
+  //}
+  //else
+  //{
+  //    Console.WriteLine("you are Not eligible");
+  //}
+
+  //if else if (ladder)
+  //int per = 84;
+  //if (per >= 80 && per <= 100)
+  //{
+  //    Console.WriteLine("A+");
+  //}
+  //else if (per >= 70 && per <= 79)
+  //{
+  //    Console.WriteLine("A");
+  //}
+  ////Test
+
+
+
+  //nested if
+  //int num = 13;
+  //if (num > 10)
+  //{
+  //    Console.WriteLine("Number is Greater than 10");
+  //    if (num > 15)
+  //    {
+  //        Console.WriteLine("Also Greater than 15");
+  //        if (num > 20)
+  //        {
+  //            Console.WriteLine("Also Greater than 20");
+  //        }
+  //    }
+  //    else
+  //    {
+  //        Console.WriteLine("But Not Greater than 15");
+  //    }
+  //}
+  //else
+  //{
+  //   Console.WriteLine("Number is Less than 10");
+  //}
+
+
+  //int d = (int)DateTime.Now.DayOfWeek;
+  //switch (d)
+  //{
+  //    case 0:
+  //        Console.WriteLine("It's Sunday Today");
+  //        break;
+  //    case 1:
+  //        Console.WriteLine("It's Monday Today");
+  //        break;
+  //    case 2:
+  //        Console.WriteLine("It's Tuesday Today");
+  //        break;
+  //    case 3:
+  //        Console.WriteLine("It's Wednesday Today");
+  //        break;
+  //    case 4:
+  //        Console.WriteLine("It's Thursday Today");
+  //        break;
+  //    case 5:
+  //        Console.WriteLine("It's Friday Today");
+  //        break;
+  //    case 6:
+  //        Console.WriteLine("It's Saturday Today");
+  //        break;
+  //}
+
+  //Loops
+  //for
+  //while
+  //do while
+  //foreach
+  //for in
+
+  //for (int i = 1; i <= 10; i = i + 2)
+  //{
+  //    Console.WriteLine(i + " Welcome");
+  //}
