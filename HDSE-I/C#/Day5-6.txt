@@ -1,0 +1,153 @@
+   ////Day 5 and 6
+   ////Collectoins
+   ////generic & non generic
+
+   ////non-Generic (arraylist, stack, hashtable, sorted list)
+
+   //ArrayList al = new ArrayList();
+   //al.Add(10);
+   //al.Add(20);
+   //al.Add("Ali");
+   //al.Add(2.5f);
+   //al.Add(2.8f);
+
+   //Console.WriteLine(al[0]);
+   //Console.WriteLine(al.Count); //count
+   //Console.WriteLine(al.Contains("Ali")); //true
+   //al.Remove(2.5f);
+   //al.RemoveAt(2);
+   //al.Insert(3, "Khan");
+   //Console.WriteLine(al.Capacity);
+
+   //foreach (var araylist in al)
+   //{
+   //    Console.WriteLine(araylist);
+   //}
+
+   //Console.WriteLine((double)10 / 3);
+
+   ////LIFO
+   //Stack st = new Stack();
+   //st.Push("Ali");
+   //st.Push(22);
+   //st.Push(true);
+   //st.Push(7.1f);
+
+
+   //st.Pop();
+
+   //foreach (var s in st)
+   //{
+   //    Console.WriteLine(s);
+   //}
+
+
+   ////HashTable
+   //Hashtable students = new Hashtable();
+   //students.Add("stdname", "Abdullah");
+   //students.Add("stdMarks", 98);
+   //students.Add("stdExamStatus", true);
+   //students.Add("stdImg", "abdullah.jpg");
+
+
+   ////Console.WriteLine(students["stdname"]);
+   ////Console.WriteLine(students.Contains("stdMarks"));
+   //students.ContainsValue(98);
+
+   //foreach (DictionaryEntry item in students)
+   //{
+   //    Console.WriteLine(item.Key + " : " + item.Value);
+   //}
+
+   ////sorted list
+   //SortedList myList = new SortedList();
+
+   //myList.Add(3, "Three");
+   //myList.Add(1, "One");
+   //myList.Add(2, "Two");
+
+
+   //Console.WriteLine(myList[1]); // Output: One
+
+   //foreach (DictionaryEntry entry in myList)
+   //{
+   //    Console.WriteLine($"Key: {entry.Key}, Value: {entry.Value}");
+   //}
+
+
+
+   ////generic(list, stack, queue, dictionary)
+
+   //List<string> fruits = new List<string>();
+   //fruits.Add("Apple");
+   //fruits.Add("Banana");
+
+   //foreach (string fruit in fruits)
+   //{
+   //    Console.WriteLine(fruit);
+   //}
+
+
+
+   ////stack - LIFO
+   //Stack<string> st = new Stack<string>();
+   //st.Push("Bilal");
+   //st.Push("Noman");
+   //st.Push("Iqbal");
+   //st.Push("Ali");
+   //st.Push("Fouzan");
+
+   //st.Pop();
+   //st.Pop();
+   //st.Pop();
+
+   //foreach (string stack in st)
+   //{
+   //    Console.WriteLine(stack);
+   //}
+
+   ////FIFO
+   //Queue<string> line = new Queue<string>();
+   //line.Enqueue("First");
+   //line.Enqueue("Second");
+   //line.Enqueue("Third");
+
+   ////Console.WriteLine(line.Dequeue()); // First
+
+   //foreach (string data in line)
+   //{
+   //    Console.WriteLine(data);
+   //}
+
+
+
+   //SortedList<int, string> students = new SortedList<int, string>();
+
+   //students.Add(3, "Alice");
+   //students.Add(1, "Bob");
+   //students.Add(2, "Charlie");
+
+   //foreach (var student in students)
+   //{
+   //    Console.WriteLine($"{student.Key}: {student.Value}");
+   //}
+
+   //Dictionary<int, string> students = new Dictionary<int, string>();
+   //students.Add(1, "Ali");
+   //students.Add(2, "Sara");
+
+   //Console.WriteLine(students[1]); // Ali
+
+   //foreach (var item in students)
+   //{
+   //    //Console.WriteLine(item);
+   //    string[] test = (item.ToString()).Split(',');
+   //    string key = test[0];
+   //    string value = test[1];
+   //    key = test[0].Trim('['); //[
+   //    value = test[1].Trim(']'); //]
+   //    Console.Write(key);
+   //    Console.WriteLine(value);
+
+   //    //Console.WriteLine($"The students has key propety:{key} and value property is:{value}");
+   //    //Console.WriteLine(item);

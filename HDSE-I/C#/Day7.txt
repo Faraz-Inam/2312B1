@@ -1,0 +1,59 @@
+  //Day - 7
+     public class Car
+     {
+      string Name;
+      int model;
+      string color;
+      int price;
+
+      //constructor
+      //public Car(string name, int model, string color, int price)
+      //{
+      //    this.Name = name;
+      //    this.model = model;
+      //    this.color = color;
+      //    this.price = price;
+      //}
+
+      //void drive()
+      //{
+      //    Console.WriteLine($"Car name is {this.Name} - Price is {this.price} - Model is {this.model} - Color is {this.color}");
+      //}
+
+      ///////////////////////// 
+      
+      public void setData(string name, int model, string color, int price)
+      {
+          this.Name = name;
+          this.model = model;
+          this.color = color;
+          this.price = price;
+      }
+
+      public void getData()
+      {
+          Console.WriteLine($"Car Name is : {this.Name} \n Model is {this.model} \n Color is {this.color} \n Price is {this.price}");
+      }
+      static void Main(string[] args)
+      {
+         // Console.WriteLine("Hello, World!");
+
+          //Car c = new Car("Corolla", 123, "red", 1750000);
+          //Console.WriteLine($"Car name is {c.Name} - Price is {c.price} - Model is {c.model} - Color is {c.color}");
+          //c.drive();
+
+          Car car = new Car();
+
+          Console.WriteLine("Enter Car Name:");
+          string cname = Console.ReadLine();
+          Console.WriteLine("Enter Model:");
+          int model = int.Parse(Console.ReadLine());
+          Console.WriteLine("Enter Color:");
+          string color = Console.ReadLine();
+          Console.WriteLine("Enter Price:");
+          int price = int.Parse(Console.ReadLine());
+
+          car.setData(cname, model, color, price);
+          car.getData();
+      }
+  }

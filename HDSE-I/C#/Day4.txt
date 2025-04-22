@@ -1,0 +1,57 @@
+ //Day - 4
+
+ //Methods - Functions
+ //pre-defined and User-defined
+
+ //user-defined
+
+ //non-parametarized and no return
+ void fun1(){
+     Console.WriteLine("Welcome to non-parametarized and no-return function");
+ }
+
+ //calling
+ //fun1();
+
+ //parametarized and no return
+ void fun2(int a, int b)
+ {
+     Console.WriteLine(a+b);
+ }
+
+ //fun2(5, 8);
+
+ //non-parametarized and return
+ string fun3()
+ {
+     //string res = ;
+     return "Hello - Welcome to function with return";
+ }
+
+
+ //Console.WriteLine(fun3());
+
+
+ //parametarized and return
+
+ int fun4(int x, int y)
+ {
+     return x + y;
+ }
+
+ //Console.WriteLine(fun4(7, 11));
+
+ int res = fun4(12, 34);
+ //Console.WriteLine(res);
+
+ int modification = res * 4;
+ //Console.WriteLine(modification);
+
+ void fun5(string fname, string lname)
+ {
+     //Console.WriteLine("My Name Is:" + name);
+     //Console.WriteLine("My Name Is: {0}", name);
+     Console.WriteLine($"My First Name Is: {fname} \n LAst name is {lname}");
+ }
+
+ //fun5("Faraz", "Inam");
