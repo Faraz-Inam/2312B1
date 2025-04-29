@@ -1,0 +1,56 @@
+//Inheritance  
+
+public class Animal
+  {
+      public string name = "Cat";
+      public void walk()
+      {
+          Console.WriteLine($"Animal Can Walk AND Animal name is {name}");
+      }
+
+  }
+
+  public class Mammal : Animal
+  {
+      public int id = 104;
+      public void eat()
+      {
+          Console.WriteLine("Mammal Can eat");
+      }
+  }
+
+  public class Cat : Mammal
+  {
+      public string type = "Carnivorus";
+
+      public void meoww()
+      {
+          Console.WriteLine("Meowww");
+      }
+      static void Main(string[] args)
+      {
+          //Console.WriteLine("Hello, World!");
+          Animal a = new Animal();
+          a.walk();
+          Console.WriteLine(a.name);
+          
+          //Mammal m = new Mammal();
+          //Console.WriteLine(m.id);
+          //m.eat();
+
+          //a.name = "Cat";
+          //Console.WriteLine(m.name);
+          //m.walk();
+
+          Cat c = new Cat();
+          Console.WriteLine(c.type);
+          c.meoww();
+
+          Console.WriteLine(c.id);
+          c.eat();
+
+          Console.WriteLine(c.name);
+          c.walk();
+
+      }
+  }

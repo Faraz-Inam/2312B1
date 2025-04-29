@@ -1,0 +1,52 @@
+//Access Modifiers/ Access Specifiers
+ 
+ public class B 
+  {
+      // Field
+      public string pub = "Public Data";
+      protected string pro = "Protected Data";
+      private string pri = "Private Data";
+      internal string inter = "Internal Data";
+      public void publ()
+      {
+          Console.WriteLine("this is Public and No return function");
+      }
+
+      private void priv()
+      {
+          Console.WriteLine("this is Private and No return function");
+      }
+
+      protected void prote()
+      {
+          Console.WriteLine("this is Protected and No return function");
+      }
+
+      internal void intern()
+      {
+          Console.WriteLine("this is Internal and No return function");
+      }
+
+  }
+  public class C : B
+  {
+
+      
+      static void Main(string[] args)
+      {
+          C accessModifiers = new C();
+
+          //B accessModifiers = new B();
+
+          Console.WriteLine(accessModifiers.pub);
+          //Console.WriteLine(accessModifiers.pri);
+          Console.WriteLine(accessModifiers.pro);
+          Console.WriteLine(accessModifiers.inter);
+
+          accessModifiers.publ();
+          //accessModifiers.priv();
+          //accessModifiers.prote();
+          accessModifiers.intern();
+      } 
+
+  }

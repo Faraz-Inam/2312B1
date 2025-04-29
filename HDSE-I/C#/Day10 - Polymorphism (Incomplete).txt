@@ -1,0 +1,26 @@
+//Polymorphism
+   
+public void name()
+   {
+       Console.WriteLine("My Name is Faraz");
+   }
+   public void name(string n)
+   {
+       Console.WriteLine($"My Name is {n}");
+   }
+
+   public void name(int a, int b)
+   {
+       int c = a + b;
+       Console.WriteLine(c);
+   }
+
+   static void Main(string[] args)
+   {
+       Console.WriteLine("Hello, This is Polymorphism!");
+
+       Program p = new Program();
+       p.name();
+       p.name("Aptech");
+       p.name(3 , 7);
+   }
